@@ -1,0 +1,7 @@
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\bin\Debug\MapTheState.DataImport.XML
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\bin\Debug\MapTheState.DataImport.dll
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\bin\Debug\MapTheState.DataImport.pdb
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\bin\Debug\FSharp.Core.dll
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\bin\Debug\FSharp.Core.xml
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\obj\Debug\MapTheState.DataImport.dll
+c:\users\emilian ionascu\documents\visual studio 2015\Projects\MapTheState\MapTheState.DataImport\obj\Debug\MapTheState.DataImport.pdb

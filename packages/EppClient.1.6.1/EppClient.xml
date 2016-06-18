@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EppClient</name>
+    </assembly>
+    <members>
+        <member name="P:EppClient.Responses.PollResponse.QueueDate">
+            <summary>
+                Date and time the message was queued
+            </summary>
+        </member>
+        <member name="P:EppClient.Responses.EppGreeting.ExtensionUris">
+            <summary>
+                A collection of namespace URIs representing representing object extensions supported by the EPP server
+            </summary>
+        </member>
+        <member name="P:EppClient.Responses.EppGreeting.ServiceId">
+            <summary>
+                Gets service identifier. Value of "svID" element
+            </summary>
+        </member>
+        <member name="P:EppClient.Responses.EppGreeting.ServiceDate">
+            <summary>
+                Gets service date (UTC)
+            </summary>
+        </member>
+        <member name="P:EppClient.Responses.EppGreeting.Languages">
+            <summary>
+                Languages support by the EPP server
+            </summary>
+        </member>
+        <member name="P:EppClient.Responses.EppGreeting.Versions">
+            <summary>
+                EPP Protocol versions supported by the server
+            </summary>
+        </member>
+        <member name="P:EppClient.Responses.EppGreeting.ObjectUris">
+            <summary>
+                A collection of namespace URIs representing the objects that the EPP server supports
+            </summary>
+        </member>
+        <member name="T:EppClient.Extensions.CprCategory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Cco">
+            <summary>
+                Corporation (Canada or Canadian province or territory), Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Cct">
+            <summary>
+                Canadian citizen, Individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Res">
+            <summary>
+                Permanent Resident of Canada, Individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Gov">
+            <summary>
+                Government or government entity in Canada, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Edu">
+            <summary>
+                Canadian Educational institution, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Ass">
+            <summary>
+                Canadian Unincorporated Association, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Hop">
+            <summary>
+                Canadian Hospital, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Prt">
+            <summary>
+                Partnership Registered in Canada, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Tdm">
+            <summary>
+                Trade-mark Registered in Canada (by a non-Canadian owner), Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Trd">
+            <summary>
+                Canadian Trade union, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Plt">
+            <summary>
+                Canadian Political party, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Lam">
+            <summary>
+                Canadian Library, Archive or Museum, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Trs">
+            <summary>
+                Trust established in Canada, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Abo">
+            <summary>
+                Aboriginal Peoples (individuals or groups) indigenous to Canada, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Inb">
+            <summary>
+                Indian Band recognized by the Indian Act of Canada, Individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Lgr">
+            <summary>
+                Legal Representative of a Canadian Citizen or Permanent Resident, Individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Omk">
+            <summary>
+                Offical mark registered in Canada, Non-individual
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.CprCategory.Maj">
+            <summary>
+                Her Majesty the Queen, Non-individual
+            </summary>
+        </member>
+        <member name="T:EppClient.Extensions.ICommandExtension">
+            <summary>
+                Base interface for all EPP command extension objects
+            </summary>
+        </member>
+        <member name="M:EppClient.Extensions.ICommandExtension.ToXElement">
+            <summary>
+                Fills specified "extension" XML element of the command
+            </summary>
+            <param name="extensionElement">"extension" XML element</param>
+        </member>
+        <member name="T:EppClient.Extensions.IEppExtension">
+            <summary>
+                Base interface for all EPP extension objects
+            </summary>
+        </member>
+        <member name="P:EppClient.Extensions.SecDns.KeyData.Flags">
+            <summary>
+            Gets DNSKEY record flags
+            </summary>
+        </member>
+        <member name="P:EppClient.Extensions.SecDns.KeyData.Protocol">
+            <summary>
+            Gets the value 3 (http://tools.ietf.org/html/rfc4034#page-5)
+            </summary>
+        </member>
+        <member name="P:EppClient.Extensions.SecDns.KeyData.Algorithm">
+            <summary>
+            Gets the value identified the public key's cryptographic algorithm and determines the format of the Public Key field
+            </summary>
+        </member>
+        <member name="P:EppClient.Extensions.SecDns.KeyData.PublicKey">
+            <summary>
+            Gets the value hold the public key material
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.SecDns.KeyDataFlags.IsZoneKey">
+            <summary>
+            DNSKEY record holds a DNS zone key
+            </summary>
+        </member>
+        <member name="F:EppClient.Extensions.SecDns.KeyDataFlags.IsSecureEntryPoint">
+            <summary>
+            DNSKEY record holds a key intended for use as a secure entry point
+            </summary>
+        </member>
+        <member name="T:EppClient.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:EppClient.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:EppClient.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:EppClient.Resources.EppMessageBase">
+             <summary>
+               Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+            &lt;epp xmlns=&quot;urn:ietf:params:xml:ns:epp-1.0&quot;
+                 xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+                 xsi:schemaLocation=&quot;urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd&quot;&gt;
+            &lt;/epp&gt;.
+             </summary>
+        </member>
+        <member name="P:EppClient.Resources.HelloMessage">
+             <summary>
+               Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+            &lt;epp xmlns=&quot;urn:ietf:params:xml:ns:epp-1.0&quot;
+                 xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+                 xsi:schemaLocation=&quot;urn:ietf:params:xml:ns:epp-1.0 epp-1.0.xsd&quot;&gt;
+              &lt;hello xmlns=&quot;urn:ietf:params:xml:ns:epp-1.0&quot;/&gt;
+            &lt;/epp&gt;
+            .
+             </summary>
+        </member>
+    </members>
+</doc>

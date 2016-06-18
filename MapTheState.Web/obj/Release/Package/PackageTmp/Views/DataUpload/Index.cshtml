@@ -1,0 +1,14 @@
+﻿@model MapTheState.Web.Models.UploadDataViewModel
+
+@{
+    ViewBag.Title = "Upload Data";
+    Layout = "../Shared/_Layout.cshtml";
+}
+
+<h2>Upload Data</h2>
+
+@using (Html.BeginForm("UploadData", "DataUpload", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.TextBoxFor(x => x.File, new { type = "file" })
+    <button type="submit">Upload</button>
+}

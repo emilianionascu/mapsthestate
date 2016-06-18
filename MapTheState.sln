@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapTheState.Web", "MapTheState.Web\MapTheState.Web.csproj", "{6C355E2A-0B17-4286-B35E-F2F02F4C47AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{9D214FD3-56F4-4DF8-BBE6-6755D25401DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B969B71D-5C18-4B76-BDB6-20289C36B8FB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{D977DF83-CB2F-47E5-8BB0-F6324FF40DBD}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\MapTheStateWeb.json = PublishScripts\Templates\MapTheStateWeb.json
+		PublishScripts\Templates\MapTheStateWeb.param.dev.json = PublishScripts\Templates\MapTheStateWeb.param.dev.json
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MapTheState.DataImport", "MapTheState.DataImport\MapTheState.DataImport.fsproj", "{30E53EAA-78DC-4DB1-84B2-97D77696792E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapTheState.Tests", "MapTheState.Tests\MapTheState.Tests.csproj", "{D7820E63-5BE5-4B9B-BAAF-B1135644388A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C355E2A-0B17-4286-B35E-F2F02F4C47AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C355E2A-0B17-4286-B35E-F2F02F4C47AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C355E2A-0B17-4286-B35E-F2F02F4C47AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C355E2A-0B17-4286-B35E-F2F02F4C47AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30E53EAA-78DC-4DB1-84B2-97D77696792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30E53EAA-78DC-4DB1-84B2-97D77696792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30E53EAA-78DC-4DB1-84B2-97D77696792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30E53EAA-78DC-4DB1-84B2-97D77696792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7820E63-5BE5-4B9B-BAAF-B1135644388A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7820E63-5BE5-4B9B-BAAF-B1135644388A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7820E63-5BE5-4B9B-BAAF-B1135644388A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7820E63-5BE5-4B9B-BAAF-B1135644388A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B969B71D-5C18-4B76-BDB6-20289C36B8FB} = {9D214FD3-56F4-4DF8-BBE6-6755D25401DB}
+		{D977DF83-CB2F-47E5-8BB0-F6324FF40DBD} = {9D214FD3-56F4-4DF8-BBE6-6755D25401DB}
+	EndGlobalSection
+EndGlobal
